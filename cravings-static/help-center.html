@@ -13,33 +13,31 @@
     />
   </head>
   <body>
-    <header style="position: fixed; z-index: 999; width: 100%">
-      <div
-        id="headerDIV"
-        class="d-flex justify-content-between"
-        style="background-color: #c2410c"
-      >
-        <div class="">
-          <a href="./index.html"
-            ><img class="w-25 ps-3" src="./images/logo-light.png"
-          /></a>
-        </div>
-        <div class="d-flex mt-3 gap-2 me-4">
-          <div>
-            <button class="form-control">
-              <a class="text-decoration-none" href="./login.html">Login</a>
-            </button>
-          </div>
-          <div>
-            <button class="form-control">
-              <a class="text-decoration-none" href="./register.html"
-                >Register</a
-              >
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
+    <header>
+  <div
+    id="headerDIV"
+    class="d-flex justify-content-between align-items-center"
+    style="background-color: #c2410c; padding: 10px 20px; height: 70px;"
+  >
+    <div class="d-flex align-items-center">
+      <a href="./index.html"><img src="./images/logo-light.png" alt="Logo" style="height: 45px; width: auto;" /></a>
+    </div>
+
+    <div class="d-flex align-items-center gap-3">
+      <a href="./login.html" 
+         class="text-decoration-none" 
+         style="color: white; font-weight: 500; font-size: 16px;">
+         Login
+      </a>
+      
+      <a href="./register.html" 
+         class="btn text-decoration-none" 
+         style="background-color: white; color: #c2410c; font-weight: 600; border-radius: 5px; padding: 6px 20px; border: none;">
+         Register
+      </a>
+    </div>
+  </div>
+</header>
 
     <main>
       <div
@@ -52,7 +50,7 @@
           min-height: 100vh;
         "
       >
-        <div class="pt-5">
+        <div>
           <div class=" pt-3">
             <div class="d-flex justify-content-center align-content-center">
             <div
