@@ -39,3 +39,26 @@ header{
     border-radius: 20px;
     color: white; 
 }
+
+.s1{
+    transition: 0.3s;
+}
+.s1:hover{
+    transform: scale(1.1);
+}
+.s2{
+    color: white;
+    
+}
+
+
+.s2:hover{
+    
+    color: #c2410c;
+}
+.s3{
+    color: gray;
+}
+.s3:hover{
+    color: #c2410c;
+}
